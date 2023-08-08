@@ -50,7 +50,7 @@ impl Triangle {
 
 impl Shape for Triangle{
     fn area(&self) -> f64 {
-        0.5*self.base*self.height
+        0.5*self.base*self.height   
     }
 }
 
